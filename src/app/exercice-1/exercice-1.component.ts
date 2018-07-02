@@ -1,6 +1,4 @@
 import { Component, OnInit, HostListener, HostBinding } from '@angular/core';
-import { DirectionModel } from './shared/direction.model';
-
 @Component({
   selector: 'app-exercice-1',
   templateUrl: './exercice-1.component.html'
