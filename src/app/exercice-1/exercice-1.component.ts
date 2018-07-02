@@ -1,4 +1,5 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener, HostBinding } from '@angular/core';
+import { DirectionModel } from './shared/direction.model';
 
 @Component({
   selector: 'app-exercice-1',
@@ -10,14 +11,15 @@ export class Exercice1Component implements OnInit {
   // Peut-être que cela vous sera utile pour votre directive ;)
   // (Il vous faudra bien sûr le déplacer dans celle-ci)
 
-  // @HostListener('window:click', ['$event']) windowClick($event) {
-  //   console.log($event);
+  // @HostBinding('style.color') color: string;
+  // @HostListener('window:keydown', ['$event']) windowClick($event) {
+  //   const key = $event.key;
+  //   console.log($event.key);
   // }
 
-  constructor() {
-  }
+  constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }
+
